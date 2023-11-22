@@ -1,0 +1,92 @@
+/* css */
+
+
+ /* Estilos para o formulário de busca */
+#search input.text {
+    margin-right: 9px;
+    vertical-align: middle;
+    border: 2px outset pink;
+    padding: 0.25em;
+    width: 500px;
+    background-color: #E7EAEB;
+    color: pink;
+}
+
+#search input.submit {
+    color: pink;
+    color: #334755;
+    border: 2px outset #334755;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0.9em;
+    font-size: 1.0em;
+}
+
+/* Estilos para o corpo do site */
+body {
+    background: #000;
+    color: black;
+    font-size: 14px;
+    font-family: "palatino linotype", "trebuchet ms", "times new roman";
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
+}
+
+/* Estilos para as seções */
+.margem {
+    position: auto;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #FFE4C4;
+    margin-bottom: 10px;
+   
+}
+
+.div {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    height: 1450px;
+    background-color: #FFF8DC;
+    border: 20px;
+    border-color: yellow;
+    border-radius: all;
+}
+
+.div1 {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    height: 1000px;
+    background-color: #FFF8DC;
+    border: 20px;
+    border-color: yellow;
+    border-radius: all;
+}
+
+.div2 {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    height: 1300px;
+    background-color: #FFF8DC;
+    border: 20px;
+    border-color: yellow;
+    border-radius: all;
+}
+
+/* Estilos para imagens */
+.imagem {
+    width: 100%;
+    height: 40%;
+    
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 700px) {
+    /* Adaptações para telas menores */
+    /* ... */
+}
